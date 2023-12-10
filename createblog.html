@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>JujutsuWorld/blogs/createBlog</title>
+  <link rel="icon" type="image/svg" href="Jujutsu Kaisen.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper nav-fixed container">
+      <a id="logo-container" href="#" class="brand-logo"><img src="Jujutsu Kaisen.png" alt="png" height="70px"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">Menu</i></a>
+    </div>
+  </nav>
+  <div class="container" style="margin-top: 170px;">
+    <form class="col s12" action="blogs.html">
+        <div class="row">
+            <div class="input-field col s12">
+                <input type="text" id="inputarea" required>
+                <label for="inputarea" style="color: maroon;">Author name</label>
+            </div>
+        </div>
+        <div class="row">
+            <div class="input-field col s12">
+                <input type="text" id="inputarea" required>
+                <label for="inputarea" style="color: maroon;">Title</label>
+            </div>
+        </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" required></textarea>
+          <label for="textarea1" style="color: maroon;">Compose blog</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="file-field input-field">
+          <div class="btn" style="background-color: maroon;">
+            <span>File</span>
+            <input type="file">
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate" type="text" placeholder="Upload cover photo">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <button class="btn waves-effect waves-light" type="submit" name="action" style="background-color: maroon;">Submit
+        </button>
+      </div>
+    </form>
+  </div>
+  <footer class="page-footer black" style="margin-top: 180px;">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Blogsite</h5>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      <a class="white-text text-lighten-3" href="https://facebook.com/Jay-rEsguerraButalid">JayR 2023</a>
+      </div>
+    </div>
+  </footer>
+  <script src="js/materialize.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded',function (){
+        M.AutoInit();
+    });
+</script>
+<body>   
+</body>
+</html>
